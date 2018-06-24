@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
 //https://android.jlelse.eu/android-cardview-101-everything-you-should-know-5bbf1c873f5a?source=search_post---------4
 //http://answerofgod.tistory.com/entry/Android%EC%97%90%EC%84%9C-image-BLOB-MySQL%EC%97%90-%EC%A0%80%EC%9E%A5%ED%95%98%EA%B8%B0
 //http://superwony.tistory.com/5
+//find what to do
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,7 +35,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         checkPermission();
     }
-
     private void checkPermission() {
         int permissionCamera = ContextCompat.checkSelfPermission(getApplicationContext(), Manifest.permission.CAMERA);
         int permissionReadStorage = ContextCompat.checkSelfPermission(getApplicationContext(), Manifest.permission.READ_EXTERNAL_STORAGE);
